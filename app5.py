@@ -16,6 +16,12 @@ st.markdown("""
         background-color: #0E1117 !important;
     }
     
+    /* Sidebar styles for dark gray background */
+    .stSidebar, .stSidebar [data-testid="stSidebar"], .stSidebar .css-ng1t4o, .stSidebar .css-1d391kg {
+        background-color: #2f2f2f !important; /* Dark gray color */
+        color: white !important;
+    }
+    
     /* Sidebar title alignment */
     .sidebar-title {
         text-align: left !important;
@@ -99,6 +105,7 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 st.title("🐍 Learn Python 🐍")
 st.markdown("<h1>🌠💻 Simple Calculator 💻🌠</h1>", unsafe_allow_html=True)

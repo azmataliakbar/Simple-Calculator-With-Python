@@ -89,11 +89,10 @@ st.markdown("""
         background-color: #45a049 !important;
     }
     
-    /* Title */
-    h1 {
-        color: yellow;
+             /* Title and Markdown Header styles */
+    h1, h2, h3, h4, h5, h6, .stMarkdown h1 {
+        color: white !important; /* Forces white color for titles and headers */
         text-align: center;
-        margin-bottom: 20px;
     }
     
     /* Result text */

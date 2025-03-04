@@ -23,6 +23,18 @@ st.markdown("""
     font-weight: bold;
     text-align: center;
 }
+.sidebar-title1 {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+sidebar-title2 {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
     
@@ -127,8 +139,8 @@ st.markdown("<div class='title2'>🌠💻 Simple Calculator 🌠💻</div>", uns
 
 # Sidebar for navigation
 def main():
-    st.sidebar.markdown("<h2 class='sidebar-title'>🐍 Python Apps 🐍</h2>", unsafe_allow_html=True)
-    st.sidebar.markdown("<h2 class='sidebar-title'>🔍 Navigate Apps 🔍 :</h2>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h2 class='sidebar-title1'>🐍 Python Apps 🐍</h2>", unsafe_allow_html=True)
+    st.sidebar.markdown("<h2 class='sidebar-title2'>🔍 Navigate Apps 🔍 :</h2>", unsafe_allow_html=True)
     
     # Use markdown for links instead of buttons for deployment compatibility
     st.sidebar.markdown("<a class='sidebar-link' href='https://birthday-wish.streamlit.app/' target='_blank'>🍰 Birthday Greeting 🍰</a>", unsafe_allow_html=True)

@@ -11,6 +11,15 @@ st.markdown("""
         background-color: #0E1117 !important;
         color: white !important;
     }
+    .title1 {
+            color: white;
+            font-size: 20px;
+            }
+
+    .title2 {
+            color: white;
+            font-size: 20px;
+            }
     
     .stApp {
         background-color: #0E1117 !important;
@@ -107,8 +116,9 @@ st.markdown("""
 
 
 
-st.title("🐍 Learn Python 🐍")
-st.markdown("<h1>🌠💻 Simple Calculator 💻🌠</h1>", unsafe_allow_html=True)
+
+st.markdown("<h1 class='title1'>Learn Python 🐍</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title2'>🌠💻 Simple Calculator</h1>", unsafe_allow_html=True)
 
 # Sidebar for navigation
 def main():

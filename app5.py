@@ -14,11 +14,13 @@ st.markdown("""
     .title1 {
     color: red;
     font-size: 25px;
+    font-weight: bold;
     text-align: center;
 }
     .title2 {
     color: blue;
     font-size: 25px;
+    font-weight: bold;
     text-align: center;
 }
 

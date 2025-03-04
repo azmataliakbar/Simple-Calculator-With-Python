@@ -11,15 +11,12 @@ st.markdown("""
         background-color: #0E1117 !important;
         color: white !important;
     }
-    .title1 {
-            color: white;
-            font-size: 20px;
-            }
+    .title1, .title2 {
+    color: white;
+    font-size: 12px; /* Even smaller font size */
+}
 
-    .title2 {
-            color: white;
-            font-size: 20px;
-            }
+
     
     .stApp {
         background-color: #0E1117 !important;

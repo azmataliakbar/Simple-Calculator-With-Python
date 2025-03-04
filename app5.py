@@ -16,29 +16,6 @@ st.markdown("""
         background-color: #0E1117 !important;
     }
     
-    /* Sidebar styles for dark gray background */
-    .stSidebar, .stSidebar [data-testid="stSidebar"], .stSidebar .css-ng1t4o, .stSidebar .css-1d391kg {
-        background-color: #2f2f2f !important; /* Dark gray color */
-        color: white !important;
-    }
-    
-    /* Sidebar title alignment */
-    .sidebar-title {
-        text-align: left !important;
-        color: yellow;
-        margin-bottom: 10px;
-        font-weight: bold !important;
-        font-style: italic !important;
-        font-size: 1.5rem !important;
-    }
-    
-    .sidebar-link {
-        text-align: left !important;
-        margin-bottom: 5px;
-        color: orange !important;
-        font-weight: bold !important;
-    }
-    
     /* Calculator Card */
     .calculator-card {
         background-color: #262730;
@@ -47,6 +24,7 @@ st.markdown("""
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         margin: 20px auto;
         max-width: 400px;
+        width: 90%; /* Make it responsive on mobile */
     }
     
     /* Display */
@@ -56,9 +34,10 @@ st.markdown("""
         padding: 15px;
         border-radius: 8px;
         margin-bottom: 15px;
-        font-size: 50px;
+        font-size: 30px; /* Reduced font size for mobile */
         text-align: right;
         border: 2px solid lightgray !important;
+        word-break: break-all; /* Prevent overflow */
     }
     
     /* Buttons */
@@ -67,12 +46,12 @@ st.markdown("""
         color: orange !important;
         border: 2px solid lightgray !important;
         border-radius: 8px !important;
-        padding: 15px 0px !important;
-        font-size: 2.5rem !important;
+        padding: 10px 0px !important; /* Reduced padding for mobile */
+        font-size: 1.5rem !important;  /* Reduced font size for mobile */
         font-weight: bold !important;
         margin: 5px !important;
         width: 100% !important;
-        height: 60px !important;
+        height: 50px !important;  /* Reduced height for mobile */
         transition: background-color 0.3s !important;
     }
     
@@ -89,21 +68,43 @@ st.markdown("""
         background-color: #45a049 !important;
     }
     
-             /* Title and Markdown Header styles */
-    h1, h2, h3, h4, h5, h6, .stMarkdown h1 {
-        color: white !important; /* Forces white color for titles and headers */
-        text-align: center;
-    }
-    
     /* Result text */
     .result-text {
         color: #02f733;
-        font-size: 50px;
+        font-size: 30px; /* Reduced font size for mobile */
         text-align: center;
         margin-top: 15px;
     }
+    
+    /* Media Queries for Mobile Devices */
+    @media screen and (max-width: 768px) {
+        .calculator-card {
+            max-width: 100%;
+            padding: 10px;
+        }
+        .calculator-display {
+            font-size: 25px;
+            padding: 10px;
+        }
+        .stButton button {
+            font-size: 1.2rem !important;
+            height: 45px !important;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .calculator-display {
+            font-size: 20px;
+        }
+        .stButton button {
+            font-size: 1rem !important;
+            padding: 5px 0px !important;
+            height: 40px !important;
+        }
+    }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 st.title("🐍 Learn Python 🐍")

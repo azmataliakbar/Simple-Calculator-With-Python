@@ -114,8 +114,8 @@ st.markdown("""
 
 
 
-st.markdown("<h1 class='title1'>Learn Python 🐍</h1>", unsafe_allow_html=True)
-st.markdown("<h1 class='title2'>🌠💻 Simple Calculator</h1>", unsafe_allow_html=True)
+st.markdown("<div class='title1'>Learn Python 🐍</div>", unsafe_allow_html=True)
+st.markdown("<div class='title2'>🌠💻 Simple Calculator</div>", unsafe_allow_html=True)
 
 # Sidebar for navigation
 def main():

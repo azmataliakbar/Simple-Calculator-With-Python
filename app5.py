@@ -13,7 +13,7 @@ st.markdown("""
     }
     .title1, .title2 {
     color: white;
-    font-size: 12px; /* Even smaller font size */
+    font-size: 25px; /* Even smaller font size */
 }
 
 
@@ -114,8 +114,8 @@ st.markdown("""
 
 
 
-st.markdown("<div class='title1'>Learn Python 🐍</div>", unsafe_allow_html=True)
-st.markdown("<div class='title2'>🌠💻 Simple Calculator</div>", unsafe_allow_html=True)
+st.markdown("<div class='title1'>🐍 Learn Python 🐍</div>", unsafe_allow_html=True)
+st.markdown("<div class='title2'>🌠💻 Simple Calculator 🌠💻</div>", unsafe_allow_html=True)
 
 # Sidebar for navigation
 def main():

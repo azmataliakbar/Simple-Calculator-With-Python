@@ -11,8 +11,13 @@ st.markdown("""
         background-color: #0E1117 !important;
         color: white !important;
     }
-    .title1, .title2 {
-    color: white;
+    .title1 {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+    .title2 {
+    color: blue;
     font-size: 25px;
     text-align: center;
 }

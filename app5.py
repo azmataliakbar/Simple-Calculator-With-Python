@@ -13,7 +13,8 @@ st.markdown("""
     }
     .title1, .title2 {
     color: white;
-    font-size: 25px; /* Even smaller font size */
+    font-size: 25px;
+    text-align: center;
 }
 
 

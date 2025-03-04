@@ -119,6 +119,7 @@ def main():
     st.sidebar.markdown("<a class='sidebar-link' href='https://birthday-wish.streamlit.app/' target='_blank'>🍰 Birthday Greeting 🍰</a>", unsafe_allow_html=True)
     st.sidebar.markdown("<a class='sidebar-link' href='https://bmi-calculator2.streamlit.app/' target='_blank'>💻 BMI Calculator 💻</a>", unsafe_allow_html=True)
     st.sidebar.markdown("<a class='sidebar-link' href='https://countdown-counter.streamlit.app/' target='_blank'>⏳ Countdown Counter ⏳</a>", unsafe_allow_html=True)
+    st.sidebar.markdown("<a class='sidebar-link' href='https://currency-converter2.streamlit.app/' target='_blank'>💱 Currency Converter 💱</a>", unsafe_allow_html=True)
     st.sidebar.markdown("<a class='sidebar-link' href='https://simple-digital-clock.streamlit.app/' target='_blank'>🕒 Digital Clock 🕒</a>", unsafe_allow_html=True)
     st.sidebar.markdown("<a class='sidebar-link' href='https://convert-file-into-csv-xlxs-unpmjpc5yezf5bt8jfurgs.streamlit.app/' target='_blank'>🖼️ File Converter 🖼️</a>", unsafe_allow_html=True)
 

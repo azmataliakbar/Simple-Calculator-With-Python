@@ -27,13 +27,13 @@ st.markdown("""
     color: red;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
+    
 }
 sidebar-title2 {
     color: green;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
+    
 }
 
 
